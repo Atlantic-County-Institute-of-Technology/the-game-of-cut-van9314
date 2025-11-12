@@ -15,5 +15,17 @@ public class card {
 
 
     }
+    public card(int face, int suit){
+        this.face = face;
+        this.suit = suit;
+    }
+
+    // Getter method instantiation
+
+    public int getFace(){ return face; }
+
+    public int getSuit(){ return suit; }
+
+    public String toString(){return faces[face] + " of " + suits[suit];}
 
 }
