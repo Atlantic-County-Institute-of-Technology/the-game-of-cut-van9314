@@ -8,9 +8,7 @@
 public class deck {
     private card[] deck = new card[52];
     public static void main(String[] args) {
-        for(){
             
         }
 
     }
-}
