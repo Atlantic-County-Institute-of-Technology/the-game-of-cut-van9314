@@ -7,10 +7,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.println("The Game of Cut Starts!");
-        deck.populateDeck();
-        System.out.println("Deck populated");
-        deck.shuffleDeck();
-
+        deck myDeck = new deck();
+        myDeck.newDeck();
+        myDeck.shuffle();
+        System.out.println(myDeck.deck[7]);
     }
 }
