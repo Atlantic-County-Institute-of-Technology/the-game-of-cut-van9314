@@ -10,8 +10,8 @@ ___
 ## Key Requirements
 ___
 By the end of this project, your program should allow for the following functionality:
-- [ ] Each **Card Object** should be able to store its unique value and suit. Those values should be retrievable individually and through a *toString()* method.
-- [ ] The **Card Deck** should be responsible for creating a normal 52-card deck, shuffling it, and 'dealing' cards.
+- [x] Each **Card Object** should be able to store its unique value and suit. Those values should be retrievable individually and through a *toString()* method.
+- [x] The **Card Deck** should be responsible for creating a normal 52-card deck, shuffling it, and 'dealing' cards.
 - [ ] The **Main Program** should run through a single game of *Cut*
 - [ ] For each game, the **user will first** cut the deck from any position, and then store the value of the card at that portion.
 - [ ] The **CPU will then** cut the deck from the remaining stack of cards, exclusive of all the cards from the first to the position the person cut.
@@ -38,8 +38,8 @@ ___
 The next two parts are more free-form, and require some design decisions we'll make together as a class. Your deck should perform the following actions:
 - [ ] On construction, create a 52-index array which will be filled with Cards.
 - [ ] Using a function, populate the deck with a fresh set of cards.
-	- [ ] 1-13 of each of the 4 suits.
-- [ ] Shuffle the deck.
+	- [x] 1-13 of each of the 4 suits.
+- [x] Shuffle the deck.
 - [ ] Remove a card from a specific index and shorten the array by one card.
 - [ ] Return the current contents of the deck as a String.
 
